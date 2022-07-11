@@ -2,7 +2,7 @@
 
 *"This project is your very first project as a student at Codam. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus."*
 
-### Subject and goal:
+### Goal of project:
 *'C programming can be very tedious when one doesn’t have access to the highly useful
 standard functions. This project is about understanding the way these functions work,
 implementing and learning to use them. Your will create your own library. It will be
