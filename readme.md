@@ -8,7 +8,7 @@ standard functions. This project is about understanding the way these functions 
 implementing and learning to use them. Your will create your own library. It will be
 helpful since you will use it in your next C school assignments.'*
 
-### What I've learned / improved
+### Skills I've learned / improved
 - Working with different kinds of variable types
 - Working with arrays (assigning memory and copying from and to arrays)
 - Creating linked lists
