@@ -1,5 +1,7 @@
 # Libft
 
+[![CodeFactor](https://www.codefactor.io/repository/github/the-friendly-ghost/libft/badge)](https://www.codefactor.io/repository/github/the-friendly-ghost/libft)
+
 *"This project is your very first project as a student at Codam. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus."*
 
 ### Goal of project:
