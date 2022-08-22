@@ -6,14 +6,14 @@
 /*   By: cpost <cpost@student.codam.nl>               +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/08/22 07:42:59 by cpost         #+#    #+#                 */
-/*   Updated: 2022/08/22 07:43:39 by cpost         ########   odam.nl         */
+/*   Updated: 2022/08/22 07:45:15 by cpost         ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /**
- * @brief The ft_strdup_before_char() function finds the first occurrence of char
+ * @brief The ft_strdup_before() function finds the first occurrence of char
  * c. It then creates a new string and copies up to char c to this new string
  * and puts a \0 after it. Note, char C is not copied. if c is \0, return a
  * copy of str. If c isn't found, return NULL;
@@ -23,7 +23,7 @@
  * 0, return the end of the string.
  * @note
  */
-char	*ft_strdup_before_char(const char *str, char c)
+char	*ft_strdup_before(const char *str, char c)
 {
 	int		i;
 	char	*new_str;
