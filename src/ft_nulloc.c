@@ -6,7 +6,7 @@
 /*   By: cpost <cpost@student.codam.nl>               +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/10/25 11:10:08 by cpost         #+#    #+#                 */
-/*   Updated: 2022/10/25 11:18:43 by cpost         ########   odam.nl         */
+/*   Updated: 2022/10/25 11:22:33 by cpost         ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,9 @@
  * @return Pointer to the newly created array
  * @note
  */
-char	*ft_nulloc(size_t n_point)
+char	**ft_nulloc(size_t n_point)
 {
-	char	*ptr;
+	char	**ptr;
 	int		i;
 
 	ptr = malloc(n_point * sizeof(char *));
