@@ -19,7 +19,7 @@
  * @return Pointer to the newly created array
  * @note
  */
-char	**ft_nulloc(size_t n_point)
+char	**ft_nulloc(int n_point)
 {
 	char	**ptr;
 	int		i;
