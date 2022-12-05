@@ -6,7 +6,7 @@
 /*   By: cpost <cpost@student.codam.nl>               +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/08/22 07:42:59 by cpost         #+#    #+#                 */
-/*   Updated: 2022/08/22 07:45:15 by cpost         ########   odam.nl         */
+/*   Updated: 2022/12/05 09:11:57 by cpost         ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,8 +37,7 @@ char	*ft_strdup_before(const char *str, char c)
 			return (NULL);
 		i++;
 	}
-	new_str = malloc((i * sizeof(char)) + 1);
-	new_str = ft_memcpy(new_str, str, i);
-	new_str[i + 1] = '\0';
+	new_str = ft_calloc(sizeof(char), i + 1);
+	ft_strlcpy(new_str, str, i + 1);
 	return (new_str);
 }
