@@ -6,7 +6,7 @@
 /*   By: cpost <cpost@student.codam.nl>               +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/10/28 12:43:58 by cpost         #+#    #+#                 */
-/*   Updated: 2022/03/02 10:34:18 by cpost         ########   odam.nl         */
+/*   Updated: 2022/12/06 18:26:53 by cpost         ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,4 +65,12 @@ void	ft_lstdelone(t_list *lst, void (*del)(void*));
 void	ft_lstclear(t_list **lst, void (*del)(void*));
 void	ft_lstiter(t_list *lst, void (*f)(void *));
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
+int		ft_charcmp_set(char c, char *set);
+char	**ft_split_set(char const *s, char *set);
+char	*ft_strdup_after(const char *str, char c);
+char	*ft_strdup_before(const char *str, char c);
+char	*ft_strdup_char(const char *str, char c);
+char	**ft_nulloc(int n_point);
+int		ft_str_is_num(char *num);
+int		ft_is_whitespace(char c);
 #endif
