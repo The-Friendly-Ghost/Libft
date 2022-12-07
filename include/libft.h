@@ -6,7 +6,7 @@
 /*   By: cpost <cpost@student.codam.nl>               +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/10/28 12:43:58 by cpost         #+#    #+#                 */
-/*   Updated: 2022/12/06 18:26:53 by cpost         ########   odam.nl         */
+/*   Updated: 2022/12/07 17:33:56 by cpost         ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,4 +73,5 @@ char	*ft_strdup_char(const char *str, char c);
 char	**ft_nulloc(int n_point);
 int		ft_str_is_num(char *num);
 int		ft_is_whitespace(char c);
+char	*ft_strfill(char *str, size_t len, char c);
 #endif
