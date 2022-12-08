@@ -6,7 +6,7 @@
 #    By: cpost <cpost@student.codam.nl>               +#+                      #
 #                                                    +#+                       #
 #    Created: 2022/03/31 11:34:24 by cpost         #+#    #+#                  #
-#    Updated: 2022/12/07 17:34:09 by cpost         ########   odam.nl          #
+#    Updated: 2022/12/08 10:44:30 by cpost         ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -76,7 +76,10 @@ ft_strdup_char.c\
 ft_nulloc.c\
 ft_str_is_num.c\
 ft_is_whitespace.c\
-ft_strfill.c
+ft_strfill.c\
+ft_strchr_replace.c\
+ft_str_is_whitespace.c\
+ft_is_whitespace.c
 
 OBJS = $(addprefix $(OBJS_DIR)/,$(SRCS:.c=.o))
 
