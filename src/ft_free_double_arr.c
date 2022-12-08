@@ -1,37 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   ft_str_is_num.c                                    :+:    :+:            */
+/*   ft_free_double_arr.c                               :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: cpost <cpost@student.codam.nl>               +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2022/12/06 15:04:48 by cpost         #+#    #+#                 */
-/*   Updated: 2022/12/08 12:47:33 by cpost         ########   odam.nl         */
+/*   Created: 2022/12/08 11:41:15 by cpost         #+#    #+#                 */
+/*   Updated: 2022/12/08 12:48:20 by cpost         ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdlib.h>
 
 /**
- * @brief Checks if a string contains only numbers
- * @param num The string to check
- * @return 1 if string contains only numbers. Else 0.
+ * @brief Free all pointers in a double array, and lastly free the double array
+ * pointer itself.
+ * @param arr Pointer to double array
+ * @return Nothing
  * @note
  */
-int	ft_str_is_num(char *num)
+void	ft_free_double_arr(char **arr)
 {
 	int	i;
 
 	i = 0;
-	if (num == NULL)
-		return (0);
-	if (num[0] == '-' || num[0] == '+')
-		i++;
-	while (num[i])
-	{
-		if (!ft_isdigit(num[i]))
-			return (0);
-		i++;
-	}
-	return (1);
+	if (arr == NULL)
+		return ;
+	while (arr[i])
+		free(arr[i++]);
+	free (arr);
 }
