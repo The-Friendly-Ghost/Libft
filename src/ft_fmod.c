@@ -6,7 +6,7 @@
 /*   By: cpost <cpost@student.codam.nl>               +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/12/06 14:37:46 by cpost         #+#    #+#                 */
-/*   Updated: 2022/12/21 12:30:19 by cpost         ########   odam.nl         */
+/*   Updated: 2022/12/21 12:35:46 by cpost         ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@
  * @note It is possible to input one or two integers a parameters as well.
  * However, the return value will be a float.
  */
-
 float	ft_fmod(float a, float b)
 {
 	float	mod;
